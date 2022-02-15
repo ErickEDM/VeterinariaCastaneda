@@ -1,0 +1,39 @@
+#title, #subtitle, #contenido{
+	font-family: "Josefin Sans";
+}
+
+#title{
+	margin-top: 50px;
+	font-size: 35px;
+}
+#subtitle{
+	font-size: 25px;
+	font-weight: 700;
+}
+#contenido li{
+	font-size: 20px;
+}
+
+hr{
+	background-color: #0B7A02;
+}
+
+#contenido {
+  list-style: none;
+}
+
+#contenido li::before {
+  content: "\2022";
+  color: #0B7A02;
+  margin-right: 10px;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+#serviciosContainer{
+	margin-bottom: 60px;
+}
+
+#hrFoot{
+	border-color: #FFFFFF;	
+}

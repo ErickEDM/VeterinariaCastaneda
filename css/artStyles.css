@@ -1,0 +1,29 @@
+#title, #artContent{
+	font-family: "Josefin Sans";
+}
+
+#artContent{
+	font-size: 20px;
+}
+
+#title{
+	font-size: 40px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+hr{
+	background-color: #0B7A02;
+}
+
+#hrFoot{
+	border-color: #FFFFFF;	
+}
+
+#artContainer{
+	margin-bottom: 50px;
+}
+
+strong{
+	font-size: 25px;
+}

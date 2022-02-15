@@ -1,0 +1,55 @@
+#title{
+	font-size: 40px;
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+
+hr{
+	background-color: #0B7A02;
+}
+
+#imgArt{
+	margin: 0;
+	padding: 0;
+	border-radius: 10px;
+}
+
+#titleArt, #descArt, #title{
+	font-family: "Josefin Sans";
+}
+
+#titleArt{
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-decoration-line: none;
+	color: #000000;
+	transition: 0.3s;
+}
+
+#titleArt:hover{
+	color: #18B31C;
+}
+
+#descArt{
+	font-size: 18px;
+}
+
+#artContainer{
+	border-radius: 20px;
+	border-bottom: 2px solid #0B7A02;
+	border-right: 2px solid #0B7A02;
+	margin-bottom: 50px;
+	padding: 15px;
+	transition: 0.3s;
+}
+
+#artContainer:hover{
+	border-radius: 40px;
+	border: 3px solid #0B7A02;
+
+}
+
+#hrFoot{
+	background-color: #FFFFFF;
+}

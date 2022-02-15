@@ -1,0 +1,77 @@
+#producto img{
+	width: 200px;
+}
+
+#titulo{
+	font-size: 45px;
+	font-family: "Josefin Sans";
+	margin-top: 60px;
+}
+
+#divisionTitulo{
+	background-color: #0B7A02;
+	margin-bottom: 50px;
+	height: 1px;
+}
+
+#btnAlimentos, #btnArticulos, #btnRopa, #btnJuguetes, #btnSuplementos{
+	background-color: #0B7A02;
+	color: #FFFFFF;
+	font-family: "Josefin Sans";
+	padding: 10px;
+	border-radius: 5px;
+	width: 210px;
+	border: 0;
+	outline: none;
+	transition: 0.3s;
+	margin-bottom: 40px;
+}
+
+#btnAlimentos:hover, #btnArticulos:hover, #btnRopa:hover, #btnJuguetes:hover, #btnSuplementos:hover{
+	background-color: #D1FECE;
+	color: #0B7A02;	
+}
+
+#productosContainer{
+	text-align: center;
+}
+
+#articulos, #juguetes, #ropa, #suplementos, .articulo, .juguete, .ropas, .suplemento{
+	width: 0px;
+	height: 0px;
+	opacity: 0%;
+	font-family: "Josefin Sans";
+}
+
+#alimentos, #articulos, #juguetes, #ropa, #suplementos{
+	transition: 0.3s;
+}
+
+#alimentos{
+	font-family: "Josefin Sans";
+}
+
+#producto{
+	border-radius: 10px;
+	border-left: 2px solid #0B7A02;
+	border-bottom: 2px solid #0B7A02;
+	transition: 0.3s;
+}
+
+#producto:hover{
+	background-color: rgba(40,174,31,0.2);
+}
+
+#productoTitle{
+	font-weight: 600;
+	margin-top: 5px;
+}
+
+#productoAgo{
+	color: #FF0000;
+}
+
+#productoDisp{
+	color: #28AE1F;
+}
+
