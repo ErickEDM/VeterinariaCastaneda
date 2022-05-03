@@ -1,0 +1,41 @@
+/*div{
+    border: #000 1px solid;
+}*/
+
+#profileBigPicture{
+    width: 100px;
+    border: 3px solid #1F8E55;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.dashboardContainer{
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.dashboardSectionTitle{
+    font-size: 30px;
+}
+
+.dashboardButton{
+    background-color: #1F8E55;
+    margin: none;
+    margin-top: 15px;
+    color: #FFFFFF;
+    padding: 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.dashboardButton:hover{
+    background-color: #78d8a6;
+    text-decoration: none;
+    color: #FFFFFF;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Iniciar Sesión</title>
+	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="css/stylesLogin.css" type="text/css" rel="stylesheet">
+	<link rel="icon" href="icono.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif">
+</head>
+
+<body>
+		
+	
+	<img id="background" src="images/LoginBack.jpg"/>
+	
+	<div class="container-fluid">
+		<div class="row align-items-center" id="loginContainer">
+			<div class="offset-3 col-6">
+				<div class="offset-2 col-8" id="login">
+					<!--img id="logo" src="images/logo2.png"-->
+					<h1 id="loginTitle">Veterinaria Castañeda</h1>
+				</div>
+				<div class="offset-2 col-8" id="login">
+					<form>
+					  <label for="pass" id="userTxt">Usuario</label><br>
+					  <input type="text" id="user" name="user"><br>
+					  <label for="user" id="passTxt">Contraseña</label><br>
+					  <input type="text" id="pass" name="pass">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+
+
+
+</html>

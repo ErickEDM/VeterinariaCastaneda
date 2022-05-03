@@ -44,7 +44,7 @@
 }
 #slides .slide {
    width: 25%;
-   float:left;
+   float: left;
    display: inline-block;
    justify-content: center;
    align-items: center;

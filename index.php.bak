@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Veterinaria Castañeda</title>
+	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="css/styles.css" type="text/css" rel="stylesheet">
+	<link href="css/stylesSlider.css" type="text/css" rel="stylesheet">
+	<link rel="icon" href="icono.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nerko One">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans">
+</head>
+
+<body>
+	<nav class="navbar navbar-dark navbar-expand-sm bg-custom sticky-top">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand mr-auto" id="brand" href="index.php">
+				<img id="logo" src="images/logo3.png"></a>
+			<div class="collapse navbar-collapse" id="Navbar">
+				<ul class="navbar-nav mr-auto" id="navbarContent">
+					<li class="nav-item active" id="Inicio"><a class="nav-link" href="index.php">Inicio</a></li>
+					<li class="nav-item"><a class="nav-link" href="servicios.php">Servicios</a></li>
+					<!--li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+					<li class="nav-item"><a class="nav-link" href="consejos.html">Consejos y más</a></li-->
+					<li class="nav-item"><a class="nav-link" href="quien.php">Quiénes somos</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid" id="barra2">
+		<div class="row align-items-center">
+			<div class="col-2 col-md-1" id="enterate">Avisos</div>
+			<div class="col-9 col-md-7" id="enterateContent">
+				<marquee> Aviso de prueba </marquee>
+			</div>
+			<div class="offset-6 offset-md-0 col-4 col-md-1" id="btnCO">
+				<div class="row">
+					<input class="col-6" type="image" id="btnOscuro" src="images/noche.png">
+					<input class="col-6" type="image" id="btnClaro" src="images/dia.png">
+				</div>
+			</div>
+			<div class="offset-1 offset-md-0 col-5 col-md-2" id="numUrgencias">Contacto: 656-681-5425</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-16 col-md-12" id="mainSec">
+				<img id="mainImage" src="images/LoginBackground.png">
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="mid-section">
+		<div class="row">
+			<div class="offset-md-1 col-12 col-md-5" id="slider">
+				<input type="radio" name="slider" id="slide1" checked>
+				<input type="radio" name="slider" id="slide2">
+				<input type="radio" name="slider" id="slide3">
+				<input type="radio" name="slider" id="slide4">
+				<div id="slides">
+					<div id="overflow">
+						<div class="inner">
+							<div class="slide slide_1">
+								<div class="slide-content">
+									<h2 id="titleSlide">¿Por qué ronronean los gatos?</h2>
+									<button id="btnSlide"><a id="sliderLink" href="articulo5.html">Ir al
+											artículo</a></button>
+								</div>
+							</div>
+							<div class="slide slide_2">
+								<div class="slide-content">
+									<h2 id="titleSlide">Nueva línea de ropa</h2>
+									<button id="btnSlide"><a id="sliderLink" href="productos.html">Ir a
+											productos</a></button>
+								</div>
+							</div>
+							<div class="slide slide_3">
+								<div class="slide-content">
+									<h2 id="titleSlide">¿Se puede bañar un gato?</h2>
+									<button id="btnSlide"><a id="sliderLink" href="articulo5.html">Ir al
+											artículo</a></button>
+								</div>
+							</div>
+							<div class="slide slide_4">
+								<div class="slide-content">
+									<h2 id="titleSlide">Indicadores de salud en los perros: síntomas a tener en cuenta
+									</h2>
+									<button id="btnSlide"><a id="sliderLink" href="articulo2.html">Ir al
+											artículo</a></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="controls">
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>
+					<label for="slide4"></label>
+				</div>
+				<div id="bullets">
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>
+					<label for="slide4"></label>
+				</div>
+			</div>
+			<div  class="col-12 col-md-6" id="facebook">
+				<iframe
+					src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvetcasta&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+					width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="5px"
+					allowfullscreen="true"
+					allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+			</div>
+		</div>
+
+		<div id="imagenMedio"></div>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="row" id="tresColumnas1">
+						<img class=" offset-2 col-8" id="tresColumnasIMG" src="images/phone.png">
+						<p class="col-12" id="tresColumnasTitle1">Contacto</p>
+						<p class="col-12" id="tresColumnasContent">Emergencias: 656-681-5425</p>
+						<p class="col-12" id="tresColumnasContent">Horario: 10:00 AM - 8:00 PM</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="row" id="tresColumnas2">
+						<img class=" offset-2 col-8" id="tresColumnasIMG2" src="images/cruz.png">
+						<a class="col-12" id="tresColumnasTitle2" href="servicios.php">Servicios</a>
+						<p class="col-12" id="tresColumnasContent">En Veterinaria Castañeda ofrecemos calidad y calidez
+							en todos nuestros servicios.</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="row" id="tresColumnas3">
+						<img class=" offset-2 col-8" id="tresColumnasIMG3" src="images/doc.png">
+						<a class="col-12" id="tresColumnasTitle3" href="quien.php">Conócenos</a>
+						<p class="col-12" id="tresColumnasContent">Atender y ofrecer los servicios que requiere su mejor amigo...</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<iframe class="col-12" id="mapa"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d378.3606364698703!2d-106.37743722374631!3d31.618399811644448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e767bbb71bdbf9%3A0xbac5599591387cb0!2sVeterinaria%20Casta%C3%B1eda!5e0!3m2!1ses-419!2smx!4v1643851797297!5m2!1ses-419!2smx"
+					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</div>
+
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-md-4">
+						<p>Dirección</p>
+						<p>C. Ramón Rayón #2014 esq. Palacio de Paquime<br>Fracc Rinconada de las Torres. Frente a farmacia Benavides. Cd. Juárez. Chih.</p>
+					</div>
+					<div class="col-6 col-md-4">
+						<p>Síguenos</p>
+						<a href="https://www.facebook.com/vetcasta"><img id="footerFB"
+								src="images/facebook.png"></a>
+					</div>
+					<div class="col-12 col-md-4">
+						<p>Métodos de pago</p>
+						<img id="pagos" src="images/pago.png">
+					</div>
+				</div>
+				<hr id="hrFoot">
+				<div class="row">
+					<p class="col-12" id="marca">2022 by Delgado & Rodríguez | Tecnológico Nacional de México campus Juárez</p>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/scriptIndex.js"></script>
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous"
+			src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0" nonce="Zo8XKMxk"></script>
+
+</body>
+
+</html>

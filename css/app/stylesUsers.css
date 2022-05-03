@@ -1,0 +1,93 @@
+/*div{
+    border: #000 1px solid;
+}*/
+
+h1{
+    font-size: 35px;
+}
+
+.card-body{
+    overflow: auto;
+    padding: 0;
+    height: 260px;
+}
+
+th, td{
+    font-family: "Oxygen";
+    font-size: 12px;
+}
+
+th{
+    background-color: #78d8a6;
+}
+
+#btnContainer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btnCUD{
+    background: #78d8a6;
+    border: none;
+    color: #000;
+    font-weight: 500;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.btnCUD:hover{
+    background: #8ffac3;
+}
+
+#updateSearch, #deleteSearch{
+    display: none;
+}
+
+#addContainer, #updateContainer, #deleteContainer{
+    transition: 0.5s;
+}
+
+#addForm .row input{
+    margin-top: 20px;
+}
+
+#addForm .row input, #updateForm .row input, #deleteForm .row input{
+    margin-top: 20px;
+}
+
+.formInputField{
+    border: none;
+    border-bottom: 1px solid #1F8E55;
+}
+
+#btnAddSubmit, #btnAddCancel, 
+#btnUpdateSubmit, #btnUpdateCancel,
+#btnDeleteSubmit, #btnDeleteCancel,
+#btnUpdateSearchView, #btnUpdateCancelView,
+#btnDeleteSearchView{
+    border: none;
+    transition: 0.3s;
+    top: 15px;
+}
+
+#btnAddSubmit, #btnUpdateSubmit, #btnDeleteSubmit,
+ #btnUpdateSearchView, #btnDeleteSearchView{
+    background-color: #78d8a6;
+}
+
+#btnAddSubmit:hover, #btnUpdateSubmit:hover, #btnDeleteSubmit:hover, #btnUpdateSearchView:hover, #btnDeleteSearchView:hover{
+    background-color: #8ffac3;
+}
+
+#btnAddCancel, #btnUpdateCancel, #btnDeleteCancel, #btnUpdateCancelView{
+    background-color: rgb(255, 200, 213);
+}
+
+#btnAddCancel:hover, #btnUpdateCancel:hover, #btnDeleteCancel:hover, #btnUpdateCancelView:hover{
+    background-color: rgb(255, 187, 203);
+}
+
+#idUpdate{
+    margin-bottom: 40px;
+    padding: 4px;
+}

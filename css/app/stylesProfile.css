@@ -1,0 +1,119 @@
+/*div{
+    border: #000 1px solid;
+}*/
+
+#profileBigPicture{
+    width: 100px;
+    border: 3px solid #1F8E55;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#imageToUpload{
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid rgb(172, 172, 172);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    border-radius: 12px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.custom-file-upload:hover {
+    background-color: #1F8E55;
+    color: #FFFFFF;
+}
+
+.btnEdit{
+    background-color: #78d8a6;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.btnEdit:hover{
+    background-color: #8ffac3;
+}
+
+#btnProfileSubmit{
+    display: none;
+}
+
+#btnPassChange{
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.inputContainer{
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.formText{
+    color: rgb(173, 173, 173);
+}
+
+.formInputField{
+    padding: 10px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 15px;
+    font-size: 20px;
+    pointer-events: none;
+}
+
+.formInputField:focus{
+    outline: 1px solid rgb(46, 152, 64);    
+}
+
+.passChangeContainer{
+    border: 1px solid #9b9b9b;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.formTitle{
+    font-size: 25px;
+}
+
+.formInputFieldPass{
+    padding: 5px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 15px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+#submit, #cancel{
+    padding: 5px;
+    border: none;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+#submit{
+    background-color: #78d8a6;
+}
+
+#submit:hover{
+    background-color: #8ffac3;
+}
+
+#cancel{
+    background-color: rgb(255, 187, 203);
+}
+
+#cancel:hover{
+    background-color: rgb(255, 200, 213);
+}

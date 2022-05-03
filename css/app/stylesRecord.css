@@ -1,0 +1,138 @@
+/*div{
+    border: #000 1px solid;
+}*/
+
+h1{
+    font-size: 35px;
+}
+
+.card-body{
+    overflow: auto;
+    padding: 0;
+    height: 400px;
+}
+
+th, td{
+    font-family: "Oxygen";
+    font-size: 12px;
+}
+
+th{
+    background-color: #78d8a6;
+}
+
+#btnContainer{
+    margin-top: 20px;
+}
+
+.btnCUD{
+    background: #78d8a6;
+    border: none;
+    color: #000;
+    font-weight: 500;
+    width: 100%;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.btnCUD:hover{
+    background: #8ffac3;
+    color: #000;
+    text-decoration: none;
+}
+
+.inputContainer{
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.formText{
+    color: rgb(173, 173, 173);
+}
+
+.formInputField{
+    padding: 10px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#btnNewSubmit, #btnNewCancel{
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#btnNewSubmit{
+    background-color: #78d8a6;
+    transition: 0.3s;
+}
+
+#btnNewSubmit:hover{
+    background-color: #8ffac3;
+}
+
+#btnNewCancel{
+    background-color: rgb(255, 187, 203);
+    transition: 0.3s;
+}
+
+#btnNewCancel:hover{
+    background-color: rgb(255, 200, 213);
+}
+
+#searchButton{
+    background-color: #1F8E55;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+
+#searchButton:hover{
+    background-color: #78d8a6;
+}
+
+#recordContainer{
+    margin-top: 35px;
+}
+
+.recordSectionContainer{
+    border: 1px solid #d4d4d4;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#recordContent{
+    height: 300px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+#submit{
+    background-color: #78d8a6;
+    transition: 0.3s;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#submit:hover{
+    background-color: #8ffac3;
+}
+
+#cancel{
+    background-color: rgb(255, 187, 203);
+    transition: 0.3s;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#cancel:hover{
+    background-color: rgb(255, 200, 213);
+}

@@ -1,0 +1,107 @@
+/*div{
+	border: 1px solid #000000;
+}*/
+
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.container-fluid{
+	margin: 0px;
+	padding: 0px;
+}
+
+#background{
+	width: 150%;
+	margin-top: -20%;
+	margin-left: -40%;
+	position: absolute;
+}
+
+#passIncorrect{
+	color: #f71313;
+	border-bottom: 1px solid #e27070;
+	font-size: 15px;
+	margin-top: 20px;
+	width: 80%;
+	left: 10%;
+	background-color: #FFFFFF;
+	font-weight: 600;
+}
+
+#loginContainer{
+	margin-top: 2%;
+}
+
+#logo{
+	width: 25%;
+}
+
+#login{
+	text-align: center;
+	
+}
+
+#loginTitle, #userTxt, #passTxt{
+	color: #FFFFFF;
+	font-family: "Noto Serif";
+}
+
+#loginTitle{
+	font-size: 25px;
+	margin-bottom: 10%;
+	font-weight: bold;
+}
+
+#user, #pass, #submit{
+	border-radius: 15px;
+	width: 80%;
+	height: 45px;
+	background-color: #d6f6ff3a;
+	border: none;
+}
+
+::placeholder {
+	font-size: 1em;
+	opacity: 1;
+	color: #FFFFFF;
+	font-family:"Dosis";
+}
+
+#user, #pass{
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+#user:focus, #pass:focus{
+	background-color: #ffffff75;
+	outline: none;
+}
+
+#userTxt, #passTxt{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#submit{
+	opacity: 1;
+	background-color: #38995d;
+	font-family:"Dosis";
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+#submit:hover{
+	background-color: #68d680;
+}
+
+@media (max-width: 480px) {
+  #background {
+    width: 1200px;
+	margin-left: -105%;
+  }
+  #user, #pass{
+	width: 100%;
+}
+}

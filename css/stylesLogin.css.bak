@@ -1,0 +1,71 @@
+div{
+	border: 1px solid #000000;
+}
+
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	/*background-image: url(../images/LoginBack.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+}
+
+.container-fluid{
+	margin: 0px;
+	padding: 0px;
+}
+
+#background{
+	width: 100%;
+	position: absolute;
+}
+
+#loginContainer{
+	margin-top: 6%;
+}
+
+#logo{
+	width: 100%;
+}
+
+#login{
+	text-align: center;
+	
+}
+
+#loginTitle, #userTxt, #passTxt{
+	color: #FFFFFF;
+	font-family: "Noto Serif";
+}
+
+#loginTitle{
+	font-size: 25px;
+	margin-bottom: 10%;
+}
+
+#user, #pass{
+	border-radius: 15px;
+	width: 80%;
+	height: 35px;
+	opacity: 50%;
+	border: none;
+}
+
+#user{
+	margin-bottom: 40px;
+}
+
+#userTxt, #passTxt{
+	
+}
+
+@media (max-width: 480px) {
+  #background {
+    width: 1500px;
+  }
+  #user, #pass{
+	width: 100%;
+}
+}
